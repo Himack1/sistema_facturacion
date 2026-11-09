@@ -1,0 +1,27 @@
+# Backups y Archivos de Base de Datos
+backups_db/*
+!backups_db/.gitkeep
+backups_cloud/*
+!backups_cloud/.gitkeep
+*.bak
+*.mdf
+*.ldf
+
+# Archivos de Pruebas y Diagnóstico Temporal
+test_*.php
+test_*.txt
+licencia_debug.txt
+scratch/
+
+# Cargas de Usuarios
+uploads/*
+!uploads/.gitkeep
+
+# Archivos de Sistema y Editores
+.vscode/
+.idea/
+*.suo
+*.user
+Thumbs.db
+.DS_Store
+*.log
